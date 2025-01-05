@@ -127,7 +127,7 @@ from datetime import datetime
 def get_model_stats():
     try:
         # Load your training data
-        df = pd.read_csv('C:/Users/ankey/Downloads/archive/carvana.csv')
+        df = pd.read_csv('carvana.csv')
         
         # Prepare features and target
         X = df[['Name', 'Year', 'Miles']].copy()
@@ -217,7 +217,7 @@ def get_model_stats():
 def get_scatter_data():
     try:
         # Load your training data
-        df = pd.read_csv('C:/Users/ankey/Downloads/archive/carvana.csv')
+        df = pd.read_csv('carvana.csv')
         
         # Prepare features and target
         X = df[['Name', 'Year', 'Miles']].copy()
